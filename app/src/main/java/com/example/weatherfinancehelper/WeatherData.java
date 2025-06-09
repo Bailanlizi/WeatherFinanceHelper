@@ -20,21 +20,10 @@ public class WeatherData {
      */
     private String convertToChineseDescription(String type) {
         switch (type.toLowerCase(Locale.ROOT)) {
-            case "thunderstorm": return "雷雨";
-            case "drizzle": return "毛毛雨";
+
             case "rain": return "下雨";
-            case "snow": return "下雪";
             case "clear": return "晴天";
             case "clouds": return "多云";
-            case "mist": return "薄雾";
-            case "smoke": return "雾霾";
-            case "haze": return "雾霾";
-            case "dust": return "浮尘";
-            case "fog": return "浓雾";
-            case "sand": return "沙尘";
-            case "ash": return "火山灰";
-            case "squall": return "狂风";
-            case "tornado": return "龙卷风";
             default: return type;
         }
     }
@@ -44,14 +33,9 @@ public class WeatherData {
      */
     public String getBackgroundResourceName() {
         switch (weatherType.toLowerCase(Locale.ROOT)) {
-            case "rain": return "weather_bg_heavy_rain";
-            case "snow": return "weather_bg_heavy_snow";
+            case "rain": return "weather_bg_rain";
             case "clear": return "weather_bg_sunny";
             case "clouds": return "weather_bg_cloudy";
-            case "thunderstorm": return "weather_bg_storm";
-            case "fog": case "mist": return "weather_bg_fog";
-            case "haze": case "smoke": return "weather_bg_haze";
-            case "dust": case "sand": return "weather_bg_dust_in_suspension";
             default: return "weather_bg_default";
         }
     }
