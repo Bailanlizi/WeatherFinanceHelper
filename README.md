@@ -1,6 +1,5 @@
 # 🌦️💰 WeatherFinanceHelper - 天气理财助手
 
-![App Screenshot](/screenshots/main_screen.png) <!-- Replace with actual screenshot path -->
 
 一款结合实时天气查询与个人财务管理的Android应用，帮助您轻松规划日常生活。
 
