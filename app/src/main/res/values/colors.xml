@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 基础颜色 -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- 主题颜色 -->
+    <color name="primary">#6750A4</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#E8DEF8</color>
+    <color name="income_green">#FF4CAF50</color>  <!-- 收入绿色 -->
+    <color name="expense_red">#FFF44336</color>   <!-- 支出红色 -->
+    <!-- 实用颜色 -->
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="weather_bg_default">#BBDEFB</color>
 </resources>

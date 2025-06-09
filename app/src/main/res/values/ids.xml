@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="tv_tag" type="id">tv_tag</item>
-    <item name="tv_amount" type="id">tv_amount</item>
-    <item name="tv_date" type="id">tv_date</item>
+    <!-- 仅保留确实需要在代码中引用的ID -->
+    <item name="tv_tag" type="id" />
+    <item name="tv_amount" type="id" />
+    <item name="tv_date" type="id" />
 </resources>
